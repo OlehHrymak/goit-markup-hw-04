@@ -316,6 +316,7 @@ width: calc((100% - 2 * 24px )/ 3);
 .team-social-top {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 }
 .team-social-item {
