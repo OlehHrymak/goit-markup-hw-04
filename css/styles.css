@@ -169,9 +169,7 @@ color: var(--ocean-cl);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   min-width: 169px;
-  transition-property: bbackground-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover {
@@ -542,4 +540,33 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 text-align:nleft;
+}
+.backdrow {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(76, 76, 76, 0,596);
+  top: 0;
+  transition: opacity 300ms liner, visibility 300ms liner;
+}
+.modal {
+  width: 408px;
+  min-height: 584px;
+  background-color: var(--dairy-cl);
+  border-radius: 4px;
+  position: absolute;|
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%) scaleY(3);
+  transition: transform 300ms liner;
+}
+
+.backdrow.is-hidden .modal {
+  transform:  translate(-50%, -50%) scale(0);
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: 0;
 }
