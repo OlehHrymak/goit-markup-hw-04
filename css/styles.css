@@ -645,7 +645,7 @@ text-align:nleft;
 }
 
 .modal-close-btn:hover .close-icon,
-.modal-close-btn:focus .close-icon,{
+.modal-close-btn:focus .close-icon {
   fill: var(--white-cl);
 }
 .close-icon {
