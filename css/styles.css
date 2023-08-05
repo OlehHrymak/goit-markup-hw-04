@@ -593,10 +593,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
 }
 
-.portf-item:hover .portf-item-text {
-  transform: translateY(0%);
-}
-
 .portf-item-conteiner {
   width: calc((100% - 2 * 24px )/ 3);
 }
