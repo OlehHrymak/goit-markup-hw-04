@@ -585,7 +585,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .portf-item:hover .portf-item-cover-text {
   transform: translateY(0%);
 }
-.portf-item:focus .portf-item--cover-text {
+.portf-item:focus .portf-item-cover-text {
   transform: translateY(0%);
 }
 .portf-item-cover-wrap {
