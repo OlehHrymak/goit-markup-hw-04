@@ -582,6 +582,8 @@ color: var(--cloud-cl);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+position: absolute;
+top: 0;
 }
 .portf-item-cover-wrap {
   position: relative;
