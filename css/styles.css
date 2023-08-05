@@ -609,14 +609,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.conteiner-portf-item {
-  display: block;
-  padding: 32px 16px;
-  border: 1px solid var(--cornflower-cl);
-  border-top: none;
-}
-
-
 .portf-subtitle {
 background-color: var(--white-cl);
 color: var(--grey-cl);
