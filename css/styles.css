@@ -59,10 +59,10 @@ ul, ol {
 }
 
 
-/* .header-conteiner {
+.header-conteiner {
   display: flex;
   align-items: center;
-} */
+}
 
 .header-logo {
 color: var(--iris-cl);
@@ -642,6 +642,10 @@ text-align:nleft;
 .modal-close-btn:focus {
   background-color: var(--ocean-cl);
   border: none;
+}
+
+.modal-close-btn:hover .close-icon,
+.modal-close-btn:focus .close-icon,{
   fill: var(--white-cl);
 }
 .close-icon {
