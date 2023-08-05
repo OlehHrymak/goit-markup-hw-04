@@ -585,6 +585,7 @@ letter-spacing: 0.02em;
 }
 .portf-item-cover-wrap {
   position: relative;
+  overflow: hidden;
 }
 .portf-item-conteiner:hover .portf-item-cover {
   transform: translateY(0);
