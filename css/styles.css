@@ -618,24 +618,13 @@ letter-spacing: 0.02em;
 text-align:nleft;
 }
 .conteiner-portf-item {
-  
+  display: block;
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower-cl);
+  border-top: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*! -------------modal------------------------- */
 .backdrow {
   position: fixed;
   width: 100%;
